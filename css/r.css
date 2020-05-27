@@ -1,0 +1,162 @@
+.courseName {
+    color: black;
+}
+
+.courseName2 {
+    color: white;
+}
+
+.f18 {
+    font-size: 18px !important;
+}
+
+.courseName2:hover {
+    color: rgb(234, 234, 234);
+    /* background-color: bisque; */
+}
+
+.justify {
+    text-align: justify;
+}
+
+.orange:hover {
+    color: #f6783a;
+}
+
+.sectionBgGrey {
+    background-color: #f7f7f7 !important;
+}
+
+.sectionBgWhite {
+    background-color: #fff !important;
+}
+
+
+
+/* skill passport page */
+.eventImg {
+    width: 570px !important;
+    height: 270px !important;
+}
+
+.borderBlue {
+    border: 4px solid #F6783A;
+}
+
+.techIcon {
+    padding: 12% 10% 4%;
+    text-align: center;
+}
+
+.techText {
+    padding: 5%;
+    color: white;
+    text-align: center;
+}
+
+.techText.textPara {
+    padding: 5% 5% 10%;
+    font-size: 14px;
+
+}
+
+.frameColor1 {
+    background: rgb(2, 0, 36);
+    background: #f6783a;
+    border-radius: 30px;
+    padding: 20px;
+    background-clip: content-box;
+    /* opacity: 90%; */
+}
+
+.frameColor2 {
+    background: rgb(2, 0, 36);
+    background: #020031;
+    border-radius: 30px;
+    padding: 20px;
+    background-clip: content-box;
+    /* opacity: 90%; */
+}
+
+
+.form-row {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: -5px;
+    margin-left: -5px;
+}
+
+.section4 {
+    background-image: url(../imgR/section4/blockchain.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#sc4_left img {
+    max-width: 200px;
+}
+
+#sc4_center img {
+    /* min-width: 345px; */
+    width: 100%;
+}
+
+#sc4_right {
+    position: relative;
+}
+
+#sc4_right p {
+    font-size: 34px;
+    font-weight: bold;
+    color: #173584;
+}
+
+.text-center-r {
+    position: absolute;
+    top: 30%;
+    left: 30px;
+}
+
+/* skill passport page  */
+
+@media only screen and (max-width: 768px) {
+
+
+    .mediaControl_ChangeToCol12 {
+        flex: 0 0 100% !important;
+        max-width: 100% !important;
+    }
+
+}
+
+@media only screen and (min-width: 768px) {
+    #sc4_center img {
+        min-width: 345px;
+    }
+}
+
+    @media (min-width: 992px) {
+
+        .rowMargin {
+            margin-left: 8%;
+            margin-right: 8%;
+        }
+
+        .col-lg-3-2 {
+            -webkit-box-flex: 0;
+            -ms-flex: 0 0 25%;
+            flex: 0 0 50%;
+            max-width: 33%;
+        }
+    }
+
+    @media only screen and (min-width: 1200px) {
+        .rowMargin {
+            margin-left: 12%;
+
+            margin-right: 12%;
+        }
+    }
