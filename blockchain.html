@@ -29,6 +29,7 @@
 	<link rel="stylesheet" href="css/owl.carousel.css" />
 	<link rel="stylesheet" href="css/style.css" />
 	<link rel="stylesheet" href="css/r.css" />
+	<link rel="stylesheet" href="css/courseDetails.css" />
 	<link rel="stylesheet" href="css/rex.css" />
 
 
@@ -258,6 +259,9 @@
 				</div>
 			</div>
 
+
+
+
 			<div class="col-lg-9 col-sm-9  pr-4 pl-4 col-to-12">
 				<div class=" ">
 					<div class="">
@@ -268,30 +272,226 @@
 						<h2>Explore our Blockchain course</h2>
 					</div>
 
-					<div class="mt-4">
-						<ul class="nav nav-pills nav-justified curriculum-tab-container my-3" role="tablist">
-							<li role="presentation" class="nav-item curriculum-tab mx-2 rounded-top"><a
-									class="nav-link py-2 format-v1 active" href="#curriculum-tab-1"
-									aria-controls="curriculum-tab-1" role="tab" data-toggle="tab" id="module1-btn"
-									aria-selected="true">
-									<p>Module 1</p>
-									<h6 class="m-0" style="font-size: 13px">16 hours</h6>
-								</a></li>
-							<li role="presentation" class="nav-item nav-link curriculum-tab mx-2 p-0 rounded-top"><a
-									class="nav-link py-2 format-v1" href="#curriculum-tab-2"
-									aria-controls="curriculum-tab-2" role="tab" data-toggle="tab" id="module2-btn"
-									aria-selected="false">
-									<p>Module 2</p>
-									<h6 class="m-0" style="font-size: 13px">16 hours</h6>
-								</a></li>
-							<li role="presentation" class="nav-item nav-link curriculum-tab mx-2 p-0 rounded-top"><a
-									class="nav-link py-2 format-v2 " href="#curriculum-tab-3"
-									aria-controls="curriculum-tab-3" role="tab" data-toggle="tab" id="module3-btn"
-									aria-selected="false">
-									<p>Module 3</p>
-									<h6 class="m-0" style="font-size: 13px">16 hours</h6>
-								</a></li>
-							<!-- <li role="presentation" class="nav-item nav-link curriculum-tab mx-2 p-0 rounded-top"><a
+					<div class="d-block d-sm-none" id="curriculum-sm">
+						<!-- accordion -->
+						<div class="accordion module-accordion" id="accordionExample">
+							<!-- Module 1 -->
+							<div class="card">
+								<div class="card-header format-v1 py-0 px-0 " id="headingOne">
+									<button
+										class="btn d-flex align-items-end w-100 px-0 py-0 collapsed sectionBgGrey borderFixed"
+										type="button" data-toggle="collapse" data-target="#collapseOne"
+										aria-expanded="false" aria-controls="collapseOne">
+										<p class="curriculum-module-sm">
+											<h6 class="w-100 centre courseModule px-0 py-3 f14">Module 1 - Fundamentals
+												Track</h6>
+										</p>
+										<!-- <h3>16 hours</h3>
+										<img class="collapse-arrow" style="width:20px; height:20px;"
+											src="/assets/pages/courses/collapse_arrow-ef2a870d0c3f4800c366b35457f5f2b68e9447f260e6deb5cd3149879395079a.svg"> -->
+									</button>
+									<!-- <h6>Fundamentals Track</h6> -->
+								</div>
+
+								<div id="collapseOne" class="collapse" aria-labelledby="headingOne"
+									data-parent="#accordionExample" style="">
+									<div class="card-body">
+										<h5><strong>Python for Data Science</strong></h5>
+										<p>A beginner-friendly module that teaches you how to code in Python and work
+											efficiently with big datasets using Google’s Colab. Understand how to
+											businesses store, extract and manipulate data through industry use cases and
+											case studies.</p>
+										<div class="spacer-20"></div>
+										<h5><strong>Analyzing Data with Python</strong></h5>
+										<p>Learn how to analyze and harvest clean data sets and create data frames to
+											run basic analysis as well as to perform data reporting using powerful data
+											science libraries like Pandas and Numpy to gain actionable insights for your
+											business.</p>
+										<div class="spacer-20"></div>
+										<h5><strong>Web Scrapping with APIs</strong></h5>
+										<p>Learn how to navigate, collect and organize data from various sources like
+											CSV files, APIs. You’ll leverage on existing datasets, scrape web data and
+											learn to access useful information in these data structures.</p>
+										<div class="spacer-20"></div>
+										<h5><strong>Intro to Data Visualization</strong></h5>
+										<p>Understand how data scientists present and visualize large datasets across
+											industries. Leverage on Matplotlib to create descriptive and interpretable
+											visuals, enabling you to easily extract relevant information, better
+											understand the data, and make effective decisions.</p>
+									</div>
+								</div>
+							</div>
+							<!-- Module 2 -->
+							<div class="card">
+								<div class="card-header format-v1 py-0 px-0" id="headingTwo">
+									<button
+										class="btn d-flex align-items-end w-100 px-0 py-0  collapsed sectionBgGrey borderFixed"
+										type="button" data-toggle="collapse" data-target="#collapseTwo"
+										aria-expanded="false" aria-controls="collapseTwo">
+										<p class="curriculum-module-sm">
+											<h6 class="w-100 centre courseModule px-0 py-3 f14">Module 2 - Solutions
+												Architecture Track</h6>
+										</p>
+										<!-- <h3>16 hours</h3>
+										<img class="collapse-arrow" style="width:20px; height:20px;"
+											src="/assets/pages/courses/collapse_arrow-ef2a870d0c3f4800c366b35457f5f2b68e9447f260e6deb5cd3149879395079a.svg"> -->
+									</button>
+									<!-- <h6>Solutions Architecture Track</h6> -->
+								</div>
+								<div id="collapseTwo" class="collapse" aria-labelledby="headingTwo"
+									data-parent="#accordionExample" style="">
+									<div class="card-body">
+										<h5><strong>Data Crawling and Data Mining</strong></h5>
+										<p>Learn how to extract and save any data on any websites like Google and Yahoo,
+											process the HTML codes, and build automated tools to crawl the web at scale.
+											From texts to images, fetch and display desired information for your own use
+											with libraries like BeautifulSoup.</p>
+										<div class="spacer-20"></div>
+										<h5><strong>Advanced Data Visualisation</strong></h5>
+										<p>Bridge the gap between data and insights and create informative and striking
+											statistical graphics with libraries like Seaborn and Plotly. Draw effective
+											conclusions and analysis by visualizing the multidimensional relationships
+											among the data samples, conduct correlation analysis and even statistical
+											data exploration.</p>
+									</div>
+								</div>
+							</div>
+							<!-- Module 3 -->
+							<div class="card">
+								<div class="card-header format-v2 py-0 px-0" id="headingThree">
+									<button
+										class="btn d-flex align-items-end w-100 collapsed px-0 py-0 sectionBgGrey borderFixed"
+										type="button" data-toggle="collapse" data-target="#collapseThree"
+										aria-expanded="false" aria-controls="collapseThree">
+										<p class="curriculum-module-sm">
+											<h6 class="w-100 centre courseModule px-0 py-3 f14">Module 3 - Technical
+												Development Track</h6>
+										</p>
+										<!-- <h3>16 hours</h3>
+										<img class="collapse-arrow" style="width:20px; height:20px;"
+											src="/assets/pages/courses/collapse_arrow-ef2a870d0c3f4800c366b35457f5f2b68e9447f260e6deb5cd3149879395079a.svg"> -->
+									</button>
+									<!-- <h6>Technical Development Track</h6> -->
+								</div>
+
+								<div id="collapseThree" class="collapse" aria-labelledby="headingThree"
+									data-parent="#accordionExample">
+									<div class="card-body">
+										<h5><strong>Data Cleaning and Supervised Learning</strong></h5>
+										<p>Learn how to explore, clean and model data for supervised machine learning
+											using preprocessing techniques. Implement linear and logistic regression,
+											and build classification models with decision trees like Random Forest to
+											make predictions with Python machine learning library sci-kit learn and
+											k-nearest neighbors algorithm.</p>
+										<div class="spacer-20"></div>
+										<h5><strong>Generalization and Overfitting in Machine Learning</strong></h5>
+										<p>Determine whether a model is good or not by implementing both a training set
+											and a test set to ensure its ability to adapt and generalized to new, unseen
+											data. Learn how the reward-punishment mechanism works to penalized models to
+											prevent overfitting using regularization and cross-validation methods to
+											improve model accuracy.</p>
+										<div class="spacer-20"></div>
+										<h5><strong>Unsupervised Learning</strong></h5>
+										<p>Learn how to find associations, patterns, and relationships present in data
+											using clustering techniques and dimensionality reduction techniques as well
+											as matrix factorization to break data set in groups.</p>
+									</div>
+								</div>
+							</div>
+							<!-- Module 4 -->
+							<!-- <div class="card">
+								<div class="card-header format-v2" id="headingFour">
+									<button class="btn d-flex align-items-end w-100 collapsed px-0" type="button"
+										data-toggle="collapse" data-target="#collapseFour" aria-expanded="false"
+										aria-controls="collapseFour">
+										<p class="curriculum-module-sm">Module 4</p>
+										<h3>16 hours</h3>
+										<img class="collapse-arrow" style="width:20px;"
+											src="/assets/pages/courses/collapse_arrow-ef2a870d0c3f4800c366b35457f5f2b68e9447f260e6deb5cd3149879395079a.svg">
+									</button>
+									<h6>Deep Learning and Neural Networks</h6>
+								</div>
+								<div id="collapseFour" class="collapse" aria-labelledby="headingFour"
+									data-parent="#accordionExample">
+									<div class="card-body">
+										<h5><strong>NLP and Image Classification</strong></h5>
+										<p>Learn how to extract and identify information from unstructured text using
+											text mining and Natural Language processing (NLP) techniques to make sense
+											out of data, e.g. how Siri is powered. Know how to pre-process raw image
+											data using normalisation and standardisation techniques as a part of data
+											preparation for deep learning.</p>
+										<div class="spacer-20"></div>
+										<h5><strong>Deep Learning with Keras</strong></h5>
+										<p>Hands-on with popular machine learning tools like Google’s Tensorflow; and
+											leverage on the Keras Library to build, train and test your first deep
+											learning model.</p>
+										<div class="spacer-20"></div>
+										<h5><strong>Neural Networks</strong></h5>
+										<p>Understand the architecture and key parameters in a neural network and apply
+											different forms of machine learning algorithm like Recurrent Neural Networks
+											(RNNs) for sequential data such as time series and financial data; Natural
+											Language Processing (NLP) text classification and generation and
+											Convolutional Neural Networks (CNN) for image classification.</p>
+									</div>
+								</div>
+							</div> -->
+
+							<!-- Module 5 -->
+							<!-- <div class="card">
+								<div class="card-header format-v2" id="headingFive">
+									<button class="btn d-flex align-items-end w-100 collapsed px-0" type="button"
+										data-toggle="collapse" data-target="#collapseFive" aria-expanded="false"
+										aria-controls="collapseFive">
+										<p class="curriculum-module-sm">Module 5</p>
+										<h3>16 hours</h3>
+										<img class="collapse-arrow" style="width:20px;"
+											src="/assets/pages/courses/collapse_arrow-ef2a870d0c3f4800c366b35457f5f2b68e9447f260e6deb5cd3149879395079a.svg">
+									</button>
+									<h6>Deployment of Machine Learning and Final Project</h6>
+								</div>
+								<div id="collapseFive" class="collapse" aria-labelledby="headingFive"
+									data-parent="#accordionExample">
+									<div class="card-body">
+										<p>In this final module, you’ll have equipped yourself with skills to comb over
+											available data and be able to implement practical machine learning
+											techniques to make predictions as well as deliver insights as well as
+											communicate findings using data visualisation techniques.</p>
+										<div class="spacer-20"></div>
+										<p>It's your time to build, train and deploy your model at scale now and change
+											the world!</p>
+									</div>
+								</div>
+							</div> -->
+						</div>
+					</div>
+
+					<div class="d-none d-sm-block" id="curriculum-md">
+						<div class="mt-4">
+							<ul class="nav nav-pills nav-justified curriculum-tab-container my-3" role="tablist">
+								<li role="presentation" class="nav-item curriculum-tab mx-2 rounded-top"><a
+										class="nav-link py-2 format-v1 active" href="#curriculum-tab-1"
+										aria-controls="curriculum-tab-1" role="tab" data-toggle="tab" id="module1-btn"
+										aria-selected="true">
+										<!-- <p>Module 1 - Fundamentals Track</p> -->
+										<h6 class="m-0 " style="font-size: 13px">Module 1<br>Fundamentals Track</h6>
+									</a></li>
+								<li role="presentation" class="nav-item nav-link curriculum-tab mx-2 p-0 rounded-top"><a
+										class="nav-link py-2 format-v1" href="#curriculum-tab-2"
+										aria-controls="curriculum-tab-2" role="tab" data-toggle="tab" id="module2-btn"
+										aria-selected="false">
+										<!-- <p>Module 2</p> -->
+										<h6 class="m-0" style="font-size: 13px">Module 2<br>Solutions Architecture Track
+										</h6>
+									</a></li>
+								<li role="presentation" class="nav-item nav-link curriculum-tab mx-2 p-0 rounded-top"><a
+										class="nav-link py-2 format-v2 " href="#curriculum-tab-3"
+										aria-controls="curriculum-tab-3" role="tab" data-toggle="tab" id="module3-btn"
+										aria-selected="false">
+										<!-- <p>Module 3</p> -->
+										<h6 class="m-0" style="font-size: 13px">Module 3<br>Technical Development Track
+										</h6>
+									</a></li>
+								<!-- <li role="presentation" class="nav-item nav-link curriculum-tab mx-2 p-0 rounded-top"><a
 									class="nav-link py-2 format-v2" href="#curriculum-tab-4"
 									aria-controls="curriculum-tab-4" role="tab" data-toggle="tab" id="module4-btn"
 									aria-selected="false">
@@ -305,174 +505,195 @@
 									<p>Module 5</p>
 									<h6 class="m-0" style="font-size: 13px">16 hours</h6>
 								</a></li> -->
-						</ul>
-					</div>
-
-					<div class="tab-content">
-						<div role="tabpanel" class="tab-pane outline active" id="curriculum-tab-1">
-
-							<div class="row">
-								<div class="my-4 col-7">
-									<h4 class="my-0">Module 1: <span id="module1-course-name">Fundamentals Track</span>
-									</h4>
-								</div>
-
-
-							</div>
-
-							<div class="features">
-								<div class="row mt-3 mb-5">
-									<div class="feature-card col-6">
-										<h5><strong>BC 100 – Introduction & Challenges
-											</strong></h5>
-										<p class="mt-3 justify">This course gives a high-level introduction to
-											blockchain; including what a blockchain is or is not, its history and
-											development and why blockchain is considered one of the most important
-											technologies in recent days. Finally, the section will present 14 real world
-											business challenges that blockchain may help to solve in the future. Later
-											sections will go in more details and depth how and the feasibility of
-											blockchain to address some of these 14 challenges.</p>
-									</div>
-									<div class="feature-card col-6">
-										<h5><strong>BC 101 – Blockchain Technology from First Principles
-											</strong></h5>
-										<p class="mt-3 justify">This course is an introduction to the fundamental
-											building blocks of blockchain from high-level first principles and concepts:
-											hash function cryptography, digital signatures, public-key cryptography,
-											distributed computing, distributed ledgers, consensus protocols, smart
-											contracts, privacy-preserving cryptography.
-										</p>
-									</div>
-								</div>
-								<div class="row mt-3 mb-5">
-									<div class="feature-card col-6">
-										<h5><strong>BC 102 – Blockchain Business & Legal
-
-											</strong></h5>
-										<p class="mt-3 justify">This course covers the legal and compliance issues,
-											risks, and mitigations for designing, launching, and operating an
-											application using blockchain and cryptography. Explore from high-level some
-											of the major use cases for applying blockchain and cryptography, especially
-											in government, health, finance, and supply chain. A brief look into the
-											failures of early blockchain networks, services, and businesses.
-										</p>
-									</div>
-								</div>
-							</div>
+							</ul>
 						</div>
 
-						<div role="tabpanel" class="tab-pane" id="curriculum-tab-2">
-							<div class="row">
-								<div class="my-4 col-7">
-									<h4 class="my-0">Module 2: <span id="module2-course-name">Solutions Architecture
-											Track</span></h4>
+						<div class="tab-content">
+							<div role="tabpanel" class="tab-pane outline active" id="curriculum-tab-1">
+
+								<div class="row">
+									<div class="my-4 col-7">
+										<h4 class="my-0">Module 1: <span id="module1-course-name">Fundamentals
+												Track</span>
+										</h4>
+									</div>
+
+
 								</div>
 
-
-							</div>
-							<div class="features">
-								<div class="row mt-3 mb-5">
-									<div class="feature-card col-6">
-										<h5><strong>BC 200 – Blockchain Opportunities
-
-											</strong></h5>
-										<p class="mt-3 justify">Lorem Ipsum is simply dummy text of the printing and
-											typesetting industry. Lorem Ipsum has been the industry's standard dummy
-											text ever since the 1500s, when an unknown printer took a galley of type and
-											scrambled it
-										</p>
+								<div class="features">
+									<div class="row mt-3 mb-5">
+										<div class="feature-card col-6">
+											<h5><strong>BC 100 – Introduction & Challenges
+												</strong></h5>
+											<p class="mt-3 justify">This course gives a high-level introduction to
+												blockchain; including what a blockchain is or is not, its history and
+												development and why blockchain is considered one of the most important
+												technologies in recent days. Finally, the section will present 14 real
+												world
+												business challenges that blockchain may help to solve in the future.
+												Later
+												sections will go in more details and depth how and the feasibility of
+												blockchain to address some of these 14 challenges.</p>
+										</div>
+										<div class="feature-card col-6">
+											<h5><strong>BC 101 – Blockchain Technology from First Principles
+												</strong></h5>
+											<p class="mt-3 justify">This course is an introduction to the fundamental
+												building blocks of blockchain from high-level first principles and
+												concepts:
+												hash function cryptography, digital signatures, public-key cryptography,
+												distributed computing, distributed ledgers, consensus protocols, smart
+												contracts, privacy-preserving cryptography.
+											</p>
+										</div>
 									</div>
-									<div class="feature-card col-6">
-										<h5><strong>BC 201 – Identity & Privacy
+									<div class="row mt-3 mb-5">
+										<div class="feature-card col-6">
+											<h5><strong>BC 102 – Blockchain Business & Legal
 
-											</strong></h5>
-										<p class="mt-3 justify">Lorem Ipsum is simply dummy text of the printing and
-											typesetting industry. Lorem Ipsum has been the industry's standard dummy
-											text ever since the 1500s, when an unknown printer took a galley of type and
-											scrambled it</p>
-									</div>
-								</div>
-								<div class="row mt-3 mb-5">
-									<div class="feature-card col-6">
-										<h5><strong>BC 202 – Asset Tokenization & Digital Fiat
-											</strong></h5>
-										<p class="mt-3 justify">Lorem Ipsum is simply dummy text of the printing and
-											typesetting industry. Lorem Ipsum has been the industry's standard dummy
-											text ever since the 1500s, when an unknown printer took a galley of type and
-											scrambled it</p>
-									</div>
-									<div class="feature-card col-6">
-										<h5><strong>BC 203 – Blockchain Governance
-
-											</strong></h5>
-										<p class="mt-3 justify">Lorem Ipsum is simply dummy text of the printing and
-											typesetting industry. Lorem Ipsum has been the industry's standard dummy
-											text ever since the 1500s, when an unknown printer took a galley of type and
-											scrambled it</p>
-									</div>
-								</div>
-								<div class="row mt-3 mb-5">
-									<div class="feature-card col-6">
-										<h5><strong>BC 204 – Blockchain Solutions Architecture
-
-											</strong></h5>
-										<p class="mt-3 justify">Lorem Ipsum is simply dummy text of the printing and
-											typesetting industry. Lorem Ipsum has been the industry's standard dummy
-											text ever since the 1500s, when an unknown printer took a galley of type and
-											scrambled it</p>
-									</div>
-									<div class="feature-card col-6">
-										<h5><strong>BC 205 – Blockchain in Fintech
-
-											</strong></h5>
-										<p class="mt-3 justify">Lorem Ipsum is simply dummy text of the printing and
-											typesetting industry. Lorem Ipsum has been the industry's standard dummy
-											text ever since the 1500s, when an unknown printer took a galley of type and
-											scrambled it</p>
+												</strong></h5>
+											<p class="mt-3 justify">This course covers the legal and compliance issues,
+												risks, and mitigations for designing, launching, and operating an
+												application using blockchain and cryptography. Explore from high-level
+												some
+												of the major use cases for applying blockchain and cryptography,
+												especially
+												in government, health, finance, and supply chain. A brief look into the
+												failures of early blockchain networks, services, and businesses.
+											</p>
+										</div>
 									</div>
 								</div>
 							</div>
-						</div>
 
-						<div role="tabpanel" class="tab-pane " id="curriculum-tab-3">
+							<div role="tabpanel" class="tab-pane" id="curriculum-tab-2">
+								<div class="row">
+									<div class="my-4 col-7">
+										<h4 class="my-0">Module 2: <span id="module2-course-name">Solutions Architecture
+												Track</span></h4>
+									</div>
 
-							<div class="row">
-								<div class="my-4 col-7">
-									<h4 class="my-0">Module 3: <span id="module3-course-name">Technical Development
-											Track</span></h4>
+
 								</div>
+								<div class="features">
+									<div class="row mt-3 mb-5">
+										<div class="feature-card col-6">
+											<h5><strong>BC 200 – Blockchain Opportunities
 
+												</strong></h5>
+											<p class="mt-3 justify">Lorem Ipsum is simply dummy text of the printing and
+												typesetting industry. Lorem Ipsum has been the industry's standard dummy
+												text ever since the 1500s, when an unknown printer took a galley of type
+												and
+												scrambled it
+											</p>
+										</div>
+										<div class="feature-card col-6">
+											<h5><strong>BC 201 – Identity & Privacy
 
+												</strong></h5>
+											<p class="mt-3 justify">Lorem Ipsum is simply dummy text of the printing and
+												typesetting industry. Lorem Ipsum has been the industry's standard dummy
+												text ever since the 1500s, when an unknown printer took a galley of type
+												and
+												scrambled it</p>
+										</div>
+									</div>
+									<div class="row mt-3 mb-5">
+										<div class="feature-card col-6">
+											<h5><strong>BC 202 – Asset Tokenization & Digital Fiat
+												</strong></h5>
+											<p class="mt-3 justify">Lorem Ipsum is simply dummy text of the printing and
+												typesetting industry. Lorem Ipsum has been the industry's standard dummy
+												text ever since the 1500s, when an unknown printer took a galley of type
+												and
+												scrambled it</p>
+										</div>
+										<div class="feature-card col-6">
+											<h5><strong>BC 203 – Blockchain Governance
+
+												</strong></h5>
+											<p class="mt-3 justify">Lorem Ipsum is simply dummy text of the printing and
+												typesetting industry. Lorem Ipsum has been the industry's standard dummy
+												text ever since the 1500s, when an unknown printer took a galley of type
+												and
+												scrambled it</p>
+										</div>
+									</div>
+									<div class="row mt-3 mb-5">
+										<div class="feature-card col-6">
+											<h5><strong>BC 204 – Blockchain Solutions Architecture
+
+												</strong></h5>
+											<p class="mt-3 justify">Lorem Ipsum is simply dummy text of the printing and
+												typesetting industry. Lorem Ipsum has been the industry's standard dummy
+												text ever since the 1500s, when an unknown printer took a galley of type
+												and
+												scrambled it</p>
+										</div>
+										<div class="feature-card col-6">
+											<h5><strong>BC 205 – Blockchain in Fintech
+
+												</strong></h5>
+											<p class="mt-3 justify">Lorem Ipsum is simply dummy text of the printing and
+												typesetting industry. Lorem Ipsum has been the industry's standard dummy
+												text ever since the 1500s, when an unknown printer took a galley of type
+												and
+												scrambled it</p>
+										</div>
+									</div>
+								</div>
 							</div>
 
-							<div class="features">
-								<div class="row mt-3 mb-5">
-									<div class="feature-card col-6">
-										<h5><strong>BC 300 – Blockchain Development with Java
+							<div role="tabpanel" class="tab-pane " id="curriculum-tab-3">
 
-											</strong></h5>
-										<p class="mt-3 justify">xxxx</p>
+								<div class="row">
+									<div class="my-4 col-7">
+										<h4 class="my-0">Module 3: <span id="module3-course-name">Technical Development
+												Track</span></h4>
 									</div>
-									<div class="feature-card col-6">
-										<h5><strong>BC 301 – Blockchain Development with R3 Corda
 
-											</strong></h5>
-										<p class="mt-3 justify">xxxx</p>
-									</div>
+
 								</div>
-								<div class="row mt-3 mb-5">
-									<div class="feature-card col-6">
-										<h5><strong>BC 302 – Blockchain Development with HL Fabric
 
-											</strong></h5>
-										<p class="mt-3 justify">xxxx</p>
+								<div class="features">
+									<div class="row mt-3 mb-5">
+										<div class="feature-card col-6">
+											<h5><strong>BC 300 – Blockchain Development with Java
+
+												</strong></h5>
+											<p class="mt-3 justify">Lorem Ipsum is simply dummy text of the printing and
+												typesetting industry. Lorem Ipsum has been the industry's standard dummy
+												text ever since the 1500s, when an unknown printer took a galley of type
+												and scrambled it</p>
+										</div>
+										<div class="feature-card col-6">
+											<h5><strong>BC 301 – Blockchain Development with R3 Corda
+
+												</strong></h5>
+											<p class="mt-3 justify">Lorem Ipsum is simply dummy text of the printing and
+												typesetting industry. Lorem Ipsum has been the industry's standard dummy
+												text ever since the 1500s, when an unknown printer took a galley of type
+												and scrambled it</p>
+										</div>
 									</div>
+									<div class="row mt-3 mb-5">
+										<div class="feature-card col-6">
+											<h5><strong>BC 302 – Blockchain Development with HL Fabric
 
+												</strong></h5>
+											<p class="mt-3 justify">Lorem Ipsum is simply dummy text of the printing and
+												typesetting industry. Lorem Ipsum has been the industry's standard dummy
+												text ever since the 1500s, when an unknown printer took a galley of type
+												and scrambled it</p>
+										</div>
+
+									</div>
 								</div>
 							</div>
-						</div>
 
-						<!-- <div role="tabpanel" class="tab-pane" id="curriculum-tab-4">
+							<!-- <div role="tabpanel" class="tab-pane" id="curriculum-tab-4">
 
 							<div class="row">
 								<div class="my-4 col-7">
@@ -545,7 +766,10 @@
 								</div>
 							</div>
 						</div> -->
+						</div>
 					</div>
+
+
 
 				</div>
 
@@ -697,7 +921,7 @@
 
 						<div class="col-lg-6 col-sm-6  ">
 							<button type="button" class="btn btn-orange w100 center">Apply Now</button>
-							<button type="button" class="mt-2 btn btn-orange-stroke  w100 center">Schedule a
+							<button type="button" class="mt-2 btn btn-orange-stroke2  w100 center">Schedule a
 								Chat</button>
 						</div>
 					</div>
@@ -737,7 +961,7 @@
 					</div>
 
 					<div class="container3">
-						<button class="accordion ">Lorem ipsum dolor sit ame</button>
+						<button class="accordionw3 ">Lorem ipsum dolor sit ame</button>
 						<div class="panel mt-3">
 							<p class="mb-0">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 								tempor
@@ -745,7 +969,7 @@
 								exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
 						</div>
 
-						<button class="accordion mt-4">Lorem ipsum dolor sit amet</button>
+						<button class="accordionw3 mt-4">Lorem ipsum dolor sit amet</button>
 						<div class="panel  mt-3">
 							<p class="mb-0">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 								tempor
@@ -753,7 +977,7 @@
 								exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
 						</div>
 
-						<button class="accordion mt-4">Lorem ipsum dolor sit amet</button>
+						<button class="accordionw3 mt-4">Lorem ipsum dolor sit amet</button>
 						<div class="panel mt-3">
 							<p class="mb-0">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 								tempor
@@ -954,23 +1178,8 @@
 	<script src="js/main.js"></script>
 	<script src="js/stickyNavBar.js"></script>
 	<script src="js/exploreBlockchainCourse.js"></script>
+	<script src="js/accordionW3.js"></script>
 
-	<script>
-		var acc = document.getElementsByClassName("accordion");
-		var i;
-
-		for (i = 0; i < acc.length; i++) {
-			acc[i].addEventListener("click", function () {
-				this.classList.toggle("active1");
-				var panel = this.nextElementSibling;
-				if (panel.style.display === "block") {
-					panel.style.display = "none";
-				} else {
-					panel.style.display = "block";
-				}
-			});
-		}
-	</script>
 
 </body>
 

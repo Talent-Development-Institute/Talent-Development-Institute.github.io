@@ -187,10 +187,37 @@
     border-color: #F6783A;
 }
 
+.btn-orange:hover {
+    color: #020031;
+    /* background-color: #fff;
+    border-color: #F6783A; */
+}
+
 .btn-orange-stroke {
     color: #F6783A;
     background-color: #fff;
     border-color: #F6783A;
+}
+
+.btn-orange-stroke:hover {
+    color: #020031;
+    /* color: #fff;
+    background-color: #F6783A;
+    border-color: #fff; */
+}
+
+.btn-orange-stroke2 {
+    /* color: #020031; */
+    color: #F6783A;
+    background-color: #fff;
+    border-color: #fff;
+}
+
+.btn-orange-stroke2:hover {
+    color: #020031;
+    /* color: #fff;
+    background-color: #F6783A;
+    border-color: #F6783A; */
 }
 
 .m-nor {
@@ -222,7 +249,7 @@
     position: fixed;
     top: 0;
     z-index: -1;
-    z-index:100;
+    z-index: 100;
     width: 25% !important;
 }
 
@@ -246,19 +273,15 @@
 }
 
 .curriculum-tab {
-    border-top: 3px;
-    border-left: 3px;
-    border-bottom: 3px;
-    border-right: 3px;
+    border-width: 2px;
     border-style: solid;
     border-color: #F6783A;
 }
 
 .nav-pills .nav-link.active,
 .nav-pills .show>.nav-link {
-    color: #fff;
-    background-color: rgb(244, 124, 64);
-    background-color: #fff;
+    border-radius: 0;
+    background-color: #F6783A;
 }
 
 
@@ -269,7 +292,11 @@
     -webkit-box-shadow: 0 0 3px #F6783A !important;
 }
 
-.accordion {
+.f14 {
+    font-size: 14px !important;
+}
+
+.accordionw3 {
     background-color: #fff;
     color: #000;
     cursor: pointer;
@@ -284,15 +311,18 @@
 }
 
 
-.accordion:after {
+.accordionw3:after {
     content: '\002B';
     color: #F6783A;
     font-weight: bold;
     float: right;
     margin-left: 5px;
+
 }
 
 .active1:after {
+    /* color: #fff !important;
+    background-color: white !important; */
     content: "\2212";
 }
 
@@ -303,6 +333,8 @@
     overflow: hidden;
 }
 
+
+
 .container3 {
     width: 100%;
     padding-right: 4%;
@@ -311,7 +343,25 @@
     margin-left: auto;
 }
 
+.courseModule:hover {
+    background-color: #F6783A !important;
+    color: white !important;
+}
 
+.borderFixed {
+    border-width: 2px;
+    border-color: #F6783A;
+}
+
+[aria-expanded="true"] .courseModule {
+    background-color: #F6783A !important;
+    color: white !important;
+}
+
+[aria-selected="true"] h6 {
+    /* background-color: #F6783A !important; */
+    color: white !important;
+}
 
 
 /* course page */
@@ -392,6 +442,14 @@
     }
 
 }
+
+@media (max-width: 320px) {
+    .f14 {
+        font-size: 12px !important;
+    }
+}
+
+
 
 
 @media (min-width: 1024px) {
