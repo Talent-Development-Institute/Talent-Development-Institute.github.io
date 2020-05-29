@@ -220,6 +220,10 @@
     border-color: #F6783A; */
 }
 
+.site-btn:hover {
+    color: #020031;
+}
+
 .m-nor {
     margin-left: 0px;
     margin-right: 0px;
