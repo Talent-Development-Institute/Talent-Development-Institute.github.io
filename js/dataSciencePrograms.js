@@ -82,16 +82,18 @@ var coursesRow = document.getElementById('coursesRow');
 
 for (let i = 0; i < programName.length; i++) {
     coursesRow.innerHTML += (
-        '<div class="col-lg-3 col-md-6 course-item" id="' + trackId[i] + '">' +
+        '<div class="col-lg-4 col-md-6 course-item" id="' + trackId[i] + '">' +
         '<div class="course-thumb">' +
         '<img src="' + imgs[i] + '" alt="">' +
         '<div class="course-cat">' +
-        '<span><a href="" class="courseName2" target="_blank">' + category[0] + '</a></span>' +
+        // '<span><a href="" class="courseName2" target="_blank">' + category[0] + '</a></span>' +
+        '<span><a  class="courseName2" >' + category[0] + '</a></span>' +
         '</div>' +
         '</div>' +
         '<div class="course-info">' +
         '<div class="date f18"><i class=""></i>' + track[i] + '</div>' +
-        '<h4><a href="" class="courseName" target="_blank">' + programName[i] + '</a></h4>' +
+        // '<h4><a href="" class="courseName" target="_blank">' + programName[i] + '</a></h4>' +
+        '<h4><a class="courseName" >' + programName[i] + '</a></h4>' +
         '<h4 class="cource-price">$' + money[i] + '<span>' + timeUnit[i] + '</span></h4>' +
         '</div>' +
         '</div>');

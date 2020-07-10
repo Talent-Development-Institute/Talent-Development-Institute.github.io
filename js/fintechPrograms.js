@@ -37,19 +37,19 @@ var track = [
 ];
 
 var imgs = [
-    "img/course/1.jpg", 
+    "img/course/1.jpg",
     "img/course/2.jpg",
-    "img/course/3.jpg", 
+    "img/course/3.jpg",
     "img/course/4.jpg",
-    "img/course/5.jpg", 
+    "img/course/5.jpg",
     "img/course/6.jpg",
-    "img/course/1.jpg", 
+    "img/course/1.jpg",
     "img/course/2.jpg",
-    "img/course/3.jpg", 
+    "img/course/3.jpg",
     "img/course/4.jpg",
-    "img/course/5.jpg", 
+    "img/course/5.jpg",
     "img/course/6.jpg",
-    "img/course/1.jpg", 
+    "img/course/1.jpg",
     "img/course/2.jpg"
 ]
 
@@ -99,12 +99,14 @@ for (let i = 0; i < programName.length; i++) {
         '<div class="course-thumb">' +
         '<img src="'+imgs[i]+'" alt="">' +
         '<div class="course-cat">' +
-        '<span><a href="" class="courseName2" target="_blank">'+category[0]+'</a></span>' +
+        // '<span><a href="" class="courseName2" target="_blank">'+category[0]+'</a></span>' +
+        '<span><a  class="courseName2">'+category[0]+'</a></span>' +
         '</div>' +
         '</div>' +
         '<div class="course-info">' +
         '<div class="date f18"><i class=""></i>'+track[i]+'</div>' +
-        '<h4><a href="" class="courseName" target="_blank">'+programName[i]+'</a></h4>' +
+        // '<h4><a href="" class="courseName" target="_blank">'+programName[i]+'</a></h4>' +
+        '<h4><a class="courseName">'+programName[i]+'</a></h4>' +
         '<h4 class="cource-price">$'+money[i]+'<span>'+timeUnit[i]+'</span></h4>' +
         '</div>' +
         '</div>');
